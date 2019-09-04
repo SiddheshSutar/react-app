@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import ReactDOM from 'react-dom';
 
-const headerProp = document.getElementById('headerProp');
+const headerProp = document.getElementById('header');
 console.log("headerProp in App.js :: " , headerProp);
 function App() {
   return (

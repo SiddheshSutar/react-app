@@ -5,14 +5,14 @@ import {mount} from 'enzyme';
 it('render app', () => {
 
   // 1
-  let headerDiv = document.createElement('div');
-  headerDiv.id = 'header';
-  let rootDiv = document.createElement('div');
-  rootDiv.id = 'root';
-  document.body.appendChild(rootDiv);
-  document.body.appendChild(headerDiv);
+  // let headerDiv = document.createElement('div');
+  // headerDiv.id = 'header';
+  // let rootDiv = document.createElement('div');
+  // rootDiv.id = 'root';
+  // document.body.appendChild(rootDiv);
+  // document.body.appendChild(headerDiv);
 
-  const rendered = mount(<App /> , {attachTo : document.body}); 
+  const rendered = mount(<App />); //  , {attachTo : document.body}
   // 1
 
   // 2
